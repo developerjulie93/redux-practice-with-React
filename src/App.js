@@ -1,9 +1,14 @@
 import React from 'react';
 import './App.css';
-import Counter from './components/Counter';
+
+import CounterContainer from './containers/CounterContainer';
 
 const App=()=>{
-  return <Counter number={0} />
+  return(
+    <div>
+      <CounterContainer/>
+      <hr />
+    </div>
+  );
 };
-
 export default App;
